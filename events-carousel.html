@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title>
+            Events
+        </title>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="events-carousel_styles.css">
+    </head>
+    <body>
+        <div class="carousel">
+            
+            <a class="carousel-item" href="#">
+                <div class="testi">
+                    <div class="img-area">
+                        <img src="https://scontent-ccu1-1.xx.fbcdn.net/v/t39.30808-6/312597108_487674460064852_6451435621134634417_n.jpg?stp=dst-jpg_p960x960&_nc_cat=111&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=5Lnso-TK5qMAX-KUWci&_nc_ht=scontent-ccu1-1.xx&oh=00_AfCuZjuyiIXXSRVZ5sunxqg10P0isvUdB1Lx0wPuC3rYAA&oe=6397415B">
+                    </div>
+                    <h4>Campus Tour</h4>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus veritatis repellendus delectus, est, alias recusandae."</p>
+                    
+                </div>
+            </a>
+            <a class="carousel-item" href="#">
+                <div class="testi">
+                    <div class="img-area">
+                        <img src="https://scontent-ccu1-1.xx.fbcdn.net/v/t39.30808-6/312597108_487674460064852_6451435621134634417_n.jpg?stp=dst-jpg_p960x960&_nc_cat=111&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=5Lnso-TK5qMAX-KUWci&_nc_ht=scontent-ccu1-1.xx&oh=00_AfCuZjuyiIXXSRVZ5sunxqg10P0isvUdB1Lx0wPuC3rYAA&oe=6397415B">
+                    </div>
+                    <h4>Mentor Mentee Interaction</h4>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus veritatis repellendus delectus, est, alias recusandae."</p>
+                    
+                </div>
+            </a>
+            <a class="carousel-item" href="#">
+                <div class="testi">
+                    <div class="img-area">
+                        <img src="https://scontent-ccu1-1.xx.fbcdn.net/v/t39.30808-6/312597108_487674460064852_6451435621134634417_n.jpg?stp=dst-jpg_p960x960&_nc_cat=111&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=5Lnso-TK5qMAX-KUWci&_nc_ht=scontent-ccu1-1.xx&oh=00_AfCuZjuyiIXXSRVZ5sunxqg10P0isvUdB1Lx0wPuC3rYAA&oe=6397415B">
+                    </div>
+                    <h4>UPSC Talks</h4>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus veritatis repellendus delectus, est, alias recusandae."</p>
+                    
+                </div>
+            </a>
+            <a class="carousel-item" href="#">
+                <div class="testi">
+                    <div class="img-area">
+                        <img src="https://scontent-ccu1-1.xx.fbcdn.net/v/t39.30808-6/312597108_487674460064852_6451435621134634417_n.jpg?stp=dst-jpg_p960x960&_nc_cat=111&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=5Lnso-TK5qMAX-KUWci&_nc_ht=scontent-ccu1-1.xx&oh=00_AfCuZjuyiIXXSRVZ5sunxqg10P0isvUdB1Lx0wPuC3rYAA&oe=6397415B">
+                    </div>
+                    <h4>Jessica Jones</h4>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus veritatis repellendus delectus, est, alias recusandae."</p>
+                    
+                </div>
+            </a>
+            <a class="carousel-item" href="#">
+                <div class="testi">
+                    <div class="img-area">
+                        <img src="https://scontent-ccu1-1.xx.fbcdn.net/v/t39.30808-6/312597108_487674460064852_6451435621134634417_n.jpg?stp=dst-jpg_p960x960&_nc_cat=111&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=5Lnso-TK5qMAX-KUWci&_nc_ht=scontent-ccu1-1.xx&oh=00_AfCuZjuyiIXXSRVZ5sunxqg10P0isvUdB1Lx0wPuC3rYAA&oe=6397415B">
+                    </div>
+                    <h4>Jessica Jones</h4>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus veritatis repellendus delectus, est, alias recusandae."</p>
+                    
+                </div>
+            </a>
+          
+       </div>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('.carousel').carousel({
+                        padding: 180
+                });
+                autoplay();
+                function autoplay() {
+                    $('.carousel').carousel('next');
+                    setTimeout(autoplay, 6000);
+                }
+            });
+        </script>
+    </body>
+</html>
